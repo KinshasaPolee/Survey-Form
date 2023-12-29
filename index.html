@@ -1,34 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
   <link rel="stylesheet" href="styles.css">
-<h1 id="title">Ice Cream Lovers Survey</h1>
-<p id="description">Let's see what classic flavor the world loves most! Tell us yours below.</p>
-<form id="survey-form"> 
-  <label id="name-label" for="name">Name
-  <input id="name" type="name" placeholder="name" name="name" required/></label>
-  <label id="email-label" for="email">Email
-  <input id="email" type="email" placeholder="email" name="email" required/></label>
-  <label id="number-label" for="number">Number
-  <input id="number" type="number" placeholder="number" min="0" max="9" name="number" required/></label>
-  <label for="dropdown">Choose a flavor</label>
-  <select name="dropdown" id="dropdown" placeholder="select">
-    <option value="select">Select</option>
-    <option value="strawberry">Strawberry</option> 
-    <option value="chocolate">Chocolate</option>
-    <option value="vanilla">Vanilla</option>
-  <div class="row"><div class="column"></div><div class="column"></div><div class="column"></div>
-  </select>
-<label for="textarea"></label>
-<textarea id="textarea" name="textarea" row="4" cols="50"></textarea>
-  <label for="terms-and-conditions">I acknowledge to have choosen my favorite flavor and no one elses.
-  <input id="terms-and-conditions" type="radio" required name="yes"class="inline" value="radio"/>Yes
-  <input id="terms-and-conditions" type="radio" required name="no"class="inline" value="radio"/>No
-  </label>
-  <label for="love ice cream">I guarantee that I love ice cream!
-  <input id="love ice cream" type="radio" required name="yes"class="inline" value="radio"/>Yes
-  <input id="love ice cream" type="radio" required name="no"class="inline" value="radio"/>No</label>
-  <label for="submit form">submit form<input id="submit form" type="checkbox" required name="submit form" class="inline" value="checkbox"/>Yes</label>
-  <input id="submit form" type="checkbox" required name="submit form" class="inline" value="checkbox"/>No</label>
-<input id="submit" type="submit" value="Submit"/>
-</form>
+</head>
+
+<body>
+  <div>
+    <h1 id="title">Ice Cream Lovers Survey</h1>
+    <p id="description">Let's see what classic flavor the world loves most! Tell us yours below.</p>
+  </div>
+  <div>
+    <form id="survey-form">
+      <label id="name-label" for="name">Name
+        <input id="name" type="name" placeholder="name" name="name" required /></label>
+      <label id="email-label" for="email">Email
+        <input id="email" type="email" placeholder="email" name="email" required /></label>
+      <label id="number-label" for="number">Number
+        <input id="number" type="number" placeholder="number" min="0" max="9" name="number" required /></label>
+      <label for="dropdown">Choose a flavor</label>
+      <select name="dropdown" id="dropdown" placeholder="select">
+        <option value="select">Select</option>
+        <option value="strawberry">Strawberry</option>
+        <option value="chocolate">Chocolate</option>
+        <option value="vanilla">Vanilla</option>
+        <div class="row">
+          <div class="column"></div>
+          <div class="column"></div>
+          <div class="column"></div>
+      </select>
+      <label for="textarea"></label>
+      <textarea id="textarea" name="textarea" row="4" cols="50" placeholder="textarea"></textarea>
+      <label for="terms-and-conditions">I acknowledge to have chosen my favorite flavor and no one elses.
+        <input id="terms-and-conditions" type="radio" required name="yes" class="inline" value="radio" />Yes
+        <input id="terms-and-conditions" type="radio" required name="no" class="inline" value="radio" />No
+      </label>
+      <label for="love ice cream">I guarantee that I love ice cream!
+        <input id="love ice cream" type="radio" required name="yes" class="inline" value="radio" />Yes
+        <input id="love ice cream" type="radio" required name="no" class="inline" value="radio" />No</label>
+      <label for="submit form">submit form<input id="submit form" type="checkbox" required name="submit form"
+          class="inline" value="checkbox" />Yes</label>
+      <input id="submit form" type="checkbox" required name="submit form" class="inline" value="checkbox" />No</label>
+      <input id="submit" type="submit" value="Submit" />
+    </form>
+  </div>
+</body>
+
 </html>
